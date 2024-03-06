@@ -1,0 +1,52 @@
+#butao{
+color: rgb(0, 0, 0);
+ background-color: rgb(255, 255, 255);
+}
+#black{
+    background-color: black;
+    color: white;
+}
+#Marrom{
+    background-color: brown;
+    color: white;
+}
+#vermelho{
+    background-color: red;
+    color: white;
+}
+#laranja{
+    background-color: black;
+    color: white;
+}
+#Amarelo{
+    background-color:yellow;
+    color: black;
+}
+#Verde{
+    background-color: green;
+    color: white;
+}
+#azul{
+    background-color: blue;
+    color: white;
+}
+#roxo{
+    background-color: purple;
+    color: white;
+}
+#cinza{
+    background-color: grey;
+    color: white;
+}
+#Branco{
+    background-color: white;
+    color: black;
+}
+#Dourado{
+    background-color: gold;
+    color: white;
+}
+#Prateado{
+    background-color: silver;
+    color: white;
+}
