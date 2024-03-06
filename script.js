@@ -1,15 +1,16 @@
 function FazerCalculo(){
-    let valueF01 = document.getElementById("faixa01").value;
-    let valueF02 = document.getElementById("faixa02").value;
-    let valueF03 = document.getElementById("multi").value;
-    let valueF04 = document.getElementById("toler").value;
-    let resistencia = parseFloat(valueF01+valueF02)*parseFloat(valueF03);
-    let tolerancia = resistencia * valueF04; 
+    let faixaL1 = document.getElementById("faixa01").value;
+    let FaixaL2 = document.getElementById("faixa02").value;
+    let Multiplicador = document.getElementById("multi").value;
+    let ToleTabela = document.getElementById("toler").value;
+    let resistencia = parseFloat(faixaL1+FaixaL2)*parseFloat(Multiplicador);
+    let tolerancia = resistencia * ToleTabela; 
 
     document.getElementById("resultado").value=resistencia;
 
-    document.getElementById("Tolerancia").value=valueF04;
-    let TotMin = tolerancia - resistencia;
+    document.getElementById("Tolerancia").value=ToleTabela;
+    
+    let TotMin = resistencia - tolerancia;
     let TotMax = tolerancia + resistencia;
     document.getElementById("ToleMin").value=TotMin;
     document.getElementById("ToleMax").value=TotMax;
